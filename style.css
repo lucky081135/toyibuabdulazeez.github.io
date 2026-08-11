@@ -157,3 +157,81 @@ h2 {
         font-size: 20px;
     }
 }
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 18px;
+    }
+
+}
+
+/* About page photo section */
+
+.about-photo {
+    background-color: lightgrey;
+    margin: 30px 20px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.about-photo h2 {
+    color: purple;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.about-photo img {
+    display: block;
+    width: 350%;
+    max-width: 600px;
+    height: auto;
+    margin: 0 auto 28px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.about-photo p {
+    color: darkgreen;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* My Journey section */
+
+.journey {
+    background: white;
+    margin-top: 30px;
+    padding: 35px 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.journey h2 {
+    color: purple;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.journey-photo {
+    width: 350%;
+    max-width: 630px;
+    height: 700px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.journey-text {
+    color: #246b2f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.7;
+    margin: 0;
+}
