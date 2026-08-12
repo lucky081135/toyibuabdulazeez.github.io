@@ -20,7 +20,7 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 15px;
 }
 
 nav a:hover {
@@ -31,7 +31,7 @@ nav a:hover {
 /* Home Page */
 .hero {
     text-align: center;
-    padding: 40px 20px 60px;
+    padding: 30px 20px 50px;
 }
 
 .hero img {
@@ -45,11 +45,11 @@ nav a:hover {
 }
 
 .hero h1 {
-    margin: 0 0 20px;
+    margin: 0 0 15px;
     background-color: transparent;
     padding: 0;
     color: darkblue;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -65,8 +65,8 @@ nav a:hover {
 /* Cards used throughout the website */
 .card {
     background-color: white;
-    padding: 30px;
-    margin: 20px 15px;
+    padding: 20px;
+    margin: 15px 10px;
     border-radius: 15px;
 }
 
@@ -162,7 +162,7 @@ h2 {
 
 .about-photo {
     background-color: lightgrey;
-    margin: 30px 20px;
+    margin: 25px 20px;
     padding: 30px;
     border-radius: 20px;
     text-align: center;
@@ -171,14 +171,14 @@ h2 {
 
 .about-photo h2 {
     color: purple;
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 
 .about-photo img {
     display: block;
     width: 100%;
-    max-width: 600px;
+    max-width: 330px;
     height: auto;
     margin: 0 auto 28px;
     border-radius: 20px;
@@ -187,7 +187,7 @@ h2 {
 
 .about-photo p {
     color: darkgreen;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 1.6;
     margin: 0;
@@ -198,7 +198,7 @@ h2 {
 .journey {
     background: white;
     margin-top: 25px;
-    padding: 35px 20px;
+    padding: 30px 20px;
     text-align: center;
     border-radius: 15px;
 }
@@ -206,7 +206,7 @@ h2 {
 .journey h2 {
     color: purple;
     font-size: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .journey-photo {
@@ -214,9 +214,9 @@ h2 {
     max-width: 330px;
     height: 600px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 15px;
     display: block;
-    margin: 0 auto 25px;
+    margin: 0 auto 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
@@ -242,7 +242,7 @@ body {
 /* Navigation */
 nav {
     background-color: darkblue;
-    padding: 10px 15px;
+    padding: 15px 20px;
 
     display: flex;
     justify-content: space-evenly;
@@ -252,9 +252,9 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
-    font-size: clamp(14px, 2vw, 18px);
+    font-size: clamp(12px, 2vw, 16px);
     font-weight: bold;
-    padding: 8px 10px;
+    padding: 10px 12px;
 }
 
 nav a:hover {
@@ -264,17 +264,17 @@ nav a:hover {
 
 /* Main text */
 p {
-    font-size: clamp(16px, 2vw, 20px);
+    font-size: clamp(14px, 2vw, 18px);
 }
 
 
 /* Headings */
 h1 {
-    font-size: clamp(28px, 5vw, 44px);
+    font-size: clamp(24px, 5vw, 40px);
 }
 
 h2 {
-    font-size: clamp(22px, 3vw, 30px);
+    font-size: clamp(20px, 3vw, 28px);
 }
 
 
@@ -306,11 +306,11 @@ img {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 23px;
+        font-size: 20px;
     }
 
 }
