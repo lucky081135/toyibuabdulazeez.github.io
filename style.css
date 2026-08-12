@@ -49,14 +49,14 @@ nav a:hover {
     background-color: transparent;
     padding: 0;
     color: darkblue;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .hero p {
     margin: 12px 0;
     color: darkgreen;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 1.6;
 }
@@ -66,7 +66,7 @@ nav a:hover {
 .card {
     background-color: white;
     padding: 30px;
-    margin: 25px 20px;
+    margin: 20px 15px;
     border-radius: 15px;
 }
 
@@ -74,7 +74,7 @@ nav a:hover {
 /* Main headings */
 h1 {
     color: darkblue;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ h1 {
 /* Section headings */
 h2 {
     color: purple;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -90,12 +90,12 @@ h2 {
 /* All normal paragraph text */
 .card p {
     color: darkgreen;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     border: 1px solid #cccccc;
     border-radius: 15px;
-    padding: 20px;
-    line-height: 1.7;
+    padding: 18px;
+    line-height: 1.6;
 }
 
 .project-link{
@@ -110,7 +110,7 @@ h2 {
 /* Project titles */
 .card h3 {
     color: #222;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -158,14 +158,6 @@ h2 {
     }
 }
 
-@media (max-width: 600px) {
-
-    body {
-        font-size: 18px;
-    }
-
-}
-
 /* About page photo section */
 
 .about-photo {
@@ -185,7 +177,7 @@ h2 {
 
 .about-photo img {
     display: block;
-    width: 350%;
+    width: 100%;
     max-width: 600px;
     height: auto;
     margin: 0 auto 28px;
@@ -195,9 +187,9 @@ h2 {
 
 .about-photo p {
     color: darkgreen;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
-    line-height: 1.7;
+    line-height: 1.6;
     margin: 0;
 }
 
@@ -205,7 +197,7 @@ h2 {
 
 .journey {
     background: white;
-    margin-top: 30px;
+    margin-top: 25px;
     padding: 35px 20px;
     text-align: center;
     border-radius: 15px;
@@ -213,14 +205,14 @@ h2 {
 
 .journey h2 {
     color: purple;
-    font-size: 28px;
-    margin-bottom: 25px;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 .journey-photo {
-    width: 350%;
-    max-width: 630px;
-    height: 700px;
+    width: 100%;
+    max-width: 330px;
+    height: 600px;
     object-fit: cover;
     border-radius: 20px;
     display: block;
@@ -232,6 +224,93 @@ h2 {
     color: #246b2f;
     font-size: 20px;
     font-weight: bold;
-    line-height: 1.7;
+    line-height: 1.6;
     margin: 0;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+   ========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Navigation */
+nav {
+    background-color: darkblue;
+    padding: 10px 15px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: clamp(14px, 2vw, 18px);
+    font-weight: bold;
+    padding: 8px 10px;
+}
+
+nav a:hover {
+    color: lightgreen;
+}
+
+
+/* Main text */
+p {
+    font-size: clamp(16px, 2vw, 20px);
+}
+
+
+/* Headings */
+h1 {
+    font-size: clamp(28px, 5vw, 44px);
+}
+
+h2 {
+    font-size: clamp(22px, 3vw, 30px);
+}
+
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    nav {
+        padding: 8px 5px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 6px 5px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
 }
