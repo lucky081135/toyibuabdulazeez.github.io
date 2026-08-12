@@ -20,7 +20,7 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 8px 13px;
 }
 
 nav a:hover {
@@ -31,7 +31,7 @@ nav a:hover {
 /* Home Page */
 .hero {
     text-align: center;
-    padding: 30px 20px 50px;
+    padding: 40px 20px 60px;
 }
 
 .hero img {
@@ -49,7 +49,7 @@ nav a:hover {
     background-color: transparent;
     padding: 0;
     color: darkblue;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -74,7 +74,7 @@ nav a:hover {
 /* Main headings */
 h1 {
     color: darkblue;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ h1 {
 /* Section headings */
 h2 {
     color: purple;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ h2 {
 .card p {
     color: darkgreen;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     border: 1px solid #cccccc;
     border-radius: 15px;
     padding: 18px;
@@ -110,7 +110,7 @@ h2 {
 /* Project titles */
 .card h3 {
     color: #222;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -118,7 +118,7 @@ h2 {
 /* Project links */
 .card a {
     color: darkblue;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -138,7 +138,7 @@ h2 {
     }
 
     .hero h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .hero p {
@@ -146,11 +146,11 @@ h2 {
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .card p {
@@ -172,7 +172,7 @@ h2 {
 .about-photo h2 {
     color: purple;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .about-photo img {
@@ -197,8 +197,8 @@ h2 {
 
 .journey {
     background: white;
-    margin-top: 20px;
-    padding: 25px 20px;
+    margin-top: 15px;
+    padding: 20px 15px;
     text-align: center;
     border-radius: 10px;
 }
@@ -270,11 +270,11 @@ p {
 
 /* Headings */
 h1 {
-    font-size: clamp(24px, 5vw, 40px);
+    font-size: clamp(22px, 5vw, 38px);
 }
 
 h2 {
-    font-size: clamp(20px, 3vw, 28px);
+    font-size: clamp(18px, 3vw, 26px);
 }
 
 
