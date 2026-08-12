@@ -102,7 +102,7 @@ h2 {
     display:inline-block;
     color:darkblue;
     font-size:18px;
-    font-weight:bold;
+    font-weight:500;
     margin-top:5px;
     text-decoration:underline;
 }
@@ -111,7 +111,7 @@ h2 {
 .card h3 {
     color: #222;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 
